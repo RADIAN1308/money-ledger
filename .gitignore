@@ -1,0 +1,26 @@
+# Ignore Gradle project-specific cache directory# Gradle
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Neovim
+.nvim/
+
+#class files
+bin/
+*.class 
+
+# OS
+.DS_Store
+Thumbs.db
