@@ -1,9 +1,11 @@
 
 package com.adrian.moneyledger.model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Transaction {
+public class Transaction implements Serializable {
+  public static final long serialVersionUID = 1L;
   private double amount;
   private String category;
   private String description;
