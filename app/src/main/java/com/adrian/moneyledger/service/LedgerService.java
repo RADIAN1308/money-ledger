@@ -12,8 +12,7 @@ public class LedgerService {
     transactions.add(transaction);
   }
 
-  public List<Transaction> getHistory() {
+  public List<Transaction> getTransactions() {
     return transactions;
   }
-
 }
